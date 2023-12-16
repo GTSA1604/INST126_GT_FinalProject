@@ -1,3 +1,7 @@
+# Name: prefab_team_reader.py
+# Author: Garrette Tsang
+# Creation Date: 12/16/2023
+# Updated: 12/16/2023
 # This module is designed to interact with the main Operator Selection program. 
 # It will read a file containing a list of operators and their levels, 
 # and return a list of tuples containing the operator name and level.

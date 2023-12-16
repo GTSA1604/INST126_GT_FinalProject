@@ -1,3 +1,11 @@
+# Name: videogamepageScrapper.py
+# Author: Garrette Tsang
+# Creation Date: 12/05/2023
+# Updated: 12/16/2023
+# This script is designed to interact with a Wikipedia page,
+# containing information on the best selling video games of all time,
+# and retrieve the information from the main table on the page.
+
 from bs4 import BeautifulSoup
 import requests
  
