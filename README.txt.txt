@@ -1,15 +1,19 @@
-In that file, you need to explain both:
+The program named "Operator Selection" aims to retrieve the full statistics and details of characters within a certain video game, provided the name of said character and level. Due to the small size of the database CSV file, only certain 
+characters are applicable for this program, with rigid levels. For more details, please refer to the database CSV file.
 
-1. What your program does: 
-this needs to be a good description of exactly what your program does. 
-It is your job to make sure your program does what you say it does! 
-If you end up falling a little short of your initial goals, that’s fine, 
-just update the README to describe what it actually does.
+The program named "videogamepageScrapper" aims to retrieve the details of a table containing information on the best
+selling video games of all time on a Wikipedia page.
 
-2. How to use your program: 
-you need to include instructions for how to use your program.
-Imagine that your audience is roughly at the level you are in Python.
-For example, you don’t need to explain what the command line is, 
-but if your program accepts command-line arguments, you should describe what those arguments are. 
-In other words, it should be like a basic user manual that tells people how to run your code without forcing them to read
-your code.
+
+
+To use "Operator Selection", prepare a text file with the names of the characters you wish to retrieve information on, 
+and their respective levels separated by a comma. As an example, refer to the following:
+
+Eyjafjalla, E2L30
+SilverAsh, E2Max
+...
+
+Then simply run the method TeamCompReader(textfilename, destinationList) with the name of the text file to input the text file and the name of the destination list to store the names and levels of the characters, and selectOperator() to retrieve
+character information.
+
+To use "videogamepageScrapper", simply replace the target webpage assigned to videogames_page with the new target URL.
